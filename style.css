@@ -1,0 +1,86 @@
+.container {
+    display: flex;
+    flex-flow: row nowrap;
+  }
+.RGB{
+  margin: 10px 50px;
+}
+
+.redcolor{
+  border: 2px solid black;
+  border-radius: 10%;
+  background-color: rgb(255, 0, 0); 
+  width: 20px;
+  height: 20px;
+}
+.greencolor{
+  border: 2px solid black;
+  border-radius: 10%;
+  background-color: rgb(0, 255, 0);
+  width: 20px;
+  height: 20px;
+}
+.bluecolor{
+  border: 2px solid black;
+  border-radius: 10%;
+  background-color: rgb(0, 0, 255);
+  width: 20px;
+  height: 20px;
+}
+
+.HEX{
+  margin: 10px 50px;
+}
+.HEXnumber{
+  border: 2px solid steelblue;
+  border-radius: 10%;
+  width: 200px;
+  height: 20px;  
+}
+.HEXcolor{
+  border: 2px solid steelblue;
+  border-radius: 10%;
+  margin: 10px 0px;
+  width: 70px;
+  height: 70px; 
+  background-color: #abcdef;
+}
+
+.container2{
+  text-align:center;  
+}
+.RGBslider{
+  margin-left:auto; 
+  margin-right:auto; 
+}
+.HEXnumber2{
+  margin-left:auto; 
+  margin-right:auto;
+  font-size: 20px;
+  font-weight:bold;
+}
+
+.redcolor2{
+  border: 2px solid black;
+  border-radius: 10%;
+  background-color: rgb(255, 0, 0); 
+  width: 30px;
+  height: 20px;
+  color: rgb(0, 256, 256);
+}
+.greencolor2{
+  border: 2px solid black;
+  border-radius: 10%;
+  background-color: rgb(0, 255, 0);
+  width:30px;
+  height: 20px;
+  color: rgb(256, 0, 256);
+}
+.bluecolor2{
+  border: 2px solid black;
+  border-radius: 10%;
+  background-color: rgb(0, 0, 255);
+  width: 30px;
+  height: 20px;
+  color: rgb(256, 256, 0);
+}
